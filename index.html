@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FoodSave — Good Food Shouldn't Go to Waste</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <a href="#" class="logo"><span class="leaf">❧</span> Food<span>Save</span></a>
+
+    <button class="menu-toggle" aria-label="Open menu">☰</button>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#how-it-works">How It Works</a>
+      <a href="#impact">Our Impact</a>
+      <a href="#partner">Partner with Us</a>
+    </nav>
+
+    <a href="#find-food" class="nav-button">Find Food</a>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">SAVE FOOD. SAVE MONEY. SAVE THE PLANET.</p>
+        <h1>Good Food Shouldn’t Go <span>to Waste.</span></h1>
+        <p class="hero-text">
+          Discover delicious food at lower prices while helping reduce food waste.
+        </p>
+        <a href="#find-food" class="primary-button">Find Food Near You <span>→</span></a>
+      </div>
+    </section>
+
+    <section class="benefits">
+      <div class="benefit">
+        <div class="benefit-icon">🏷</div>
+        <div><h3>Affordable Meals</h3><p>Great food at lower prices</p></div>
+      </div>
+      <div class="benefit">
+        <div class="benefit-icon">🍃</div>
+        <div><h3>Less Food Waste</h3><p>Give good food a second life</p></div>
+      </div>
+      <div class="benefit">
+        <div class="benefit-icon">👥</div>
+        <div><h3>Support Local</h3><p>Help your favorite businesses</p></div>
+      </div>
+      <div class="benefit">
+        <div class="benefit-icon">🌐</div>
+        <div><h3>A Greener Future</h3><p>Reduce environmental impact</p></div>
+      </div>
+    </section>
+
+    <section class="problem section">
+      <div class="section-image problem-image"></div>
+      <div class="section-text">
+        <p class="eyebrow">THE PROBLEM</p>
+        <h2>Too Much Good Food Goes to <span>Waste.</span></h2>
+        <p>
+          Every day, cafés, bakeries, and restaurants have unsold food that is
+          still fresh and good to eat. At the same time, many people are looking
+          for affordable food. Food waste harms the environment and wastes
+          valuable resources.
+        </p>
+      </div>
+    </section>
+
+    <section id="how-it-works" class="steps section-light">
+      <div class="section-heading">
+        <p class="eyebrow">HOW FOODSAVE WORKS</p>
+        <h2>Simple Steps, <span>Big Impact.</span></h2>
+      </div>
+
+      <div class="steps-grid">
+        <div class="step">
+          <div class="step-number">01</div>
+          <div class="step-icon">⌕</div>
+          <h3>Find</h3>
+          <p>Discover nearby cafés, bakeries, and restaurants with unsold food.</p>
+        </div>
+        <div class="step">
+          <div class="step-number">02</div>
+          <div class="step-icon">♨</div>
+          <h3>Choose</h3>
+          <p>Browse discounted meals and select what you like.</p>
+        </div>
+        <div class="step">
+          <div class="step-number">03</div>
+          <div class="step-icon">▣</div>
+          <h3>Pay</h3>
+          <p>Pay easily and securely through the website.</p>
+        </div>
+        <div class="step">
+          <div class="step-number">04</div>
+          <div class="step-icon">♧</div>
+          <h3>Pick Up</h3>
+          <p>Collect your order from the business at the chosen time.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="impact" class="impact section">
+      <div class="impact-content">
+        <p class="eyebrow">OUR IMPACT</p>
+        <h2>Making Food Consumption More <span>Responsible.</span></h2>
+
+        <div class="impact-cards">
+          <article class="impact-card">
+            <div class="sdg sdg12">12</div>
+            <div>
+              <h3>SDG 12</h3>
+              <strong>Responsible Consumption and Production</strong>
+              <p>FoodSave helps reduce unnecessary food waste by giving unsold food a second life.</p>
+            </div>
+          </article>
+
+          <article class="impact-card">
+            <div class="sdg sdg13">13</div>
+            <div>
+              <h3>SDG 13</h3>
+              <strong>Climate Action</strong>
+              <p>Reducing food waste can also reduce its environmental impact and help fight climate change.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+<section id="find-food" class="find-food section">
+  <div class="find-food-intro">
+    <p class="eyebrow">FIND SAVED FOOD IN THE UAE</p>
+
+    <h2>
+      Find food near <span>you.</span>
+    </h2>
+
+    <p>
+      Enter your location and discover food businesses near you.
+      We help you find cafés, bakeries, restaurants and other places
+      where saved food may be available.
+    </p>
+
+    <p class="location-note">
+      📍 Available across the UAE
+    </p>
+  </div>
+
+  <div class="location-search">
+
+    <div class="search-box">
+      <input
+        id="locationInput"
+        type="text"
+        placeholder="Enter your location, e.g. DAMAC Hills"
+        autocomplete="off"
+      >
+
+      <button id="searchButton">
+        Find Food
+      </button>
+    </div>
+
+    <button id="useLocationButton" class="location-button">
+      📍 Use My Current Location
+    </button>
+
+    <div id="searchMessage" class="search-message"></div>
+
+  </div>
+
+  <div id="foodResults" class="food-results"></div>
+</section>
+
+    <section id="partner" class="cta">
+      <div>
+        <h2>Join FoodSave<br>and <span>Make a Difference.</span></h2>
+        <p>Good food, lower prices, and a healthier planet — all in one place.</p>
+      </div>
+      <a href="#partner" class="light-button">Start Saving Food <span>→</span></a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="logo">Food<span>Save</span></div>
+    <p>© 2026 FoodSave. Saving food for a better future.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
